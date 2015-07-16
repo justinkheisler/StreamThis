@@ -1,0 +1,23 @@
+<section class="col-xs-12 well" data-ng-controller="DashboardController">
+	<div class="col-xs-12 row whitespace-bottom">
+		<div class="col-xs-4">
+			<input type="text" placeholder="Enter Twitter Handle"/>
+		</div>
+	</div>
+
+	<div class="col-xs-12 whitespace-bottom">
+		
+		<!-- TOP HASHTAGS -->
+		<div class="col-xs-4 well" data-ng-repeat="hashtag in hashtags">
+			<p>{{ hashtag }}</p>
+		</div>
+
+		<!-- TOP KEYWORDS -->
+		<div class="col-xs-4 well">
+		</div>
+
+		<!-- TOP MENTIONS -->
+		<div class="col-xs-4 well">
+		</div>
+	</div>
+</section>
